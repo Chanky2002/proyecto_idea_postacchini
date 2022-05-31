@@ -10,6 +10,9 @@
        <script src="https://kit.fontawesome.com/f6e1a8e9e3.js" crossorigin="anonymous"></script>
        <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimun-scale=1.0">
        <link rel="preconnect" href="https://fonts.googleapis.com">
+       <!-- CSS only -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+
        
        
     </head>
@@ -108,8 +111,8 @@
                 <section>
                     <section class="clientes-contenedor">
                         <h2 class="titulo">Que dicen los novios</h2>
-                        <div class="cards">
-                            <div class="card">
+                        <div class="cards1">
+                            <div class="card1">
                                 <img  src="./image/novio 1.jpg" alt="foto de novios 1">
                                 <div class="contenido-texto-card">
                                     <h4>Adriana y Matias</h4>
@@ -118,8 +121,8 @@
 
                             </div>
                         </div>
-                        <div class="cards">
-                            <div class="card">
+                        <div class="cards1">
+                            <div class="card1">
                                 <img   src="./image/novio 2.jpg" alt="foto de novios 1">
                                 <div class="contenido-texto-card">
                                     <h4>Juliana y Rodrigo</h4>
@@ -132,28 +135,40 @@
                 </section>
                 <!--fin seccion 3-->
                 <!-- inicio seccion 4-->
-                <section class="about-service">
-                    <div class="contenedor">
-                        <h2 class="titulo">Nuestros Servicios</h2>
-                        <div class="servicio-cont">
-                            <div class="servicio-ind">
-                                <img src="./image/foto10-galeria.jpg" alt="idea 1">
-                                <h3>Opcion 1</h3>
-                                <p>Alquiler del salon y su mobiliario, sin servicio de catering.</p>
-                            </div>
-                            <div class="servicio-ind">
-                                <img src="./image/foto6-galeria.jpg" alt="idea 1">
-                                <h3>Opcion 2</h3>
-                                <p>Alquiler del salon y su mobiliario con el servicio de catering.</p>
-                            </div>
-                            <div class="servicio-ind">
-                                <img  src="./image/foto11-galeria.jpg" alt="idea 1">
-                                <h3>Opcion 3</h3>
-                                <p>Alquiler del salon y su mobiliario con el servicio de catering, dj.</p>
-                            </div>
+                <div class="row row-cols-1 row-cols-md-3 g-4">
+                    <div class="col">
+                      <div class="card">
+                        <img src="./image/foto10-galeria.jpg" class="card-img-top" alt="opcion 1">
+                        <div class="card-body">
+                          <h5 class="card-title">Opcion 1</h5>
+                          <p class="card-text">Alquiler del salon, con su mobiliario interior (Mesas, Sillas), dandole la posibilidad a los novios que traigan a sus proveedores.</p>
                         </div>
+                      </div>
                     </div>
-                </section>
+                    <div class="col">
+                      <div class="card">
+                        <img src="./image/foto9-galeria.jpg" class="card-img-top" alt="Opcion 2">
+                        <div class="card-body">
+                          <h5 class="card-title">Opcion 2</h5>
+                          <p class="card-text"> Alquiler del salon, con su mobiliario interior. Armado de Catering por el restaurante de campo El Mangrullo.</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col">
+                      <div class="card">
+                        <img src="./image/foto11-galeria.jpg" class="card-img-top" alt="Opcion 3">
+                        <div class="card-body">
+                          <h5 class="card-title">Opcion 3</h5>
+                          <p class="card-text"> Alquiler del salon, con su mobiliario interior, living exteriror para 50 personas, DJ, Catering.</p>
+                        </div>
+                      </div>
+                    </div>
+                    
+                </div>       
+
+
+
+
                 <!--fin serccion 4-->
             </main>
             <!--inicio footer-->
@@ -175,6 +190,9 @@
                     </div>
                 </div>    
             </footer>
+            <!-- JavaScript Bundle with Popper -->
+            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+
             <!--fin de footer-->
 
         

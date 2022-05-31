@@ -3,6 +3,7 @@
     margin:0;
     padding:0;
     box-sizing: border-box;
+    
 }
 /* eleccion de letra para el body*/
 body{
@@ -164,11 +165,12 @@ header .textos-header{
 
 
 /*seccion 3*/
-.cards{
+.cards1{
     display: flex;
     justify-content: space-evenly;
+    padding: 20px;
 }
-.cards .card{
+.cards1 .card1{
     background: hwb(309 48% 39% / 0.46);
     display: flex;
     width: 46%;
@@ -178,7 +180,7 @@ header .textos-header{
     border-radius: 5px;
     box-shadow: 0 0 6px 0 rgb(0, 0, 0.6);
 }
-.cards .card img{
+.cards1 .card1 img{
     width: 100px;
     height: 100px;
     object-fit: cover;
@@ -187,43 +189,39 @@ header .textos-header{
     display: block;
 }
 
-.cards .card > .contenido-texto-card{
+.cards1 .card1 > .contenido-texto-card{
     width: 60%;
     color: rgb(9, 1, 1);
 }
-.cards .card .contenido-texto-card p{
+.cards1 .card1 .contenido-texto-card p{
     font-weight: 300;
     padding-top: 5px;
 }
 
 /*seccion 4*/
 
-.about-services{
+.row{
     background: #fff;
     padding-bottom: 30px;
+   
 }
-.servicio-cont{
+.col .card{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-left: 20px;
 }
 
-.servicio-ind{
+.col .card{
     width: 25%;
     text-align: center;
     object-fit: cover;
 }
-.servicio-ind img{
+.col .card{
     width: 90%;
     border-radius: 20px;
 }
-.servicio-ind h3{
-    margin: 10px 0;
-}
-.servicio-ind p{
-    font-weight: 300;
-    text-align: justify;
-}
+
 /*footer*/
 
 footer{
