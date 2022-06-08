@@ -1,0 +1,33 @@
+/*footer*/
+
+footer{
+    background: #780206; 
+    /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, hsla(358, 97%, 24%, 0.442), hsla(233, 88%, 20%, 0.395)); 
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, hsla(358, 97%, 24%, 0.498), hsla(233, 88%, 20%, 0.403));
+   /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    padding: 60px 0 30px 0;
+    margin: auto;
+    overflow: hidden;
+    .contenedor-footer{
+        display: flex;
+        width: 90%;
+        justify-content: space-evenly;
+        margin: auto;
+
+    }
+    .content-foo{
+        text-align: center;
+        &h4{
+            color: #fff;
+            border-bottom:3px solid #bc4e9c;
+            padding-bottom: 5px;
+            margin-bottom: 10px;
+        }
+        &p{
+            color: #ccc 
+        }
+    }
+
+}
