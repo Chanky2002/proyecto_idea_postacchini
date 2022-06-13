@@ -1,0 +1,70 @@
+/*boton whatsapp desafio_sass*/
+
+.container-boton {
+    background-color: #2e6329;
+    border: 1px solid #fff;
+    position: fixed;
+    z-index: 999;
+    border-radius: 50%;
+    bottom: 20px;
+    right: 25px;
+    padding: 25px;
+    transition: ease 0.3s;
+    animation: efecto 1.2s infinite;
+  
+    &:hover {
+      transform: scale(1.1);
+      transition: 0.3s;
+    }
+  }
+  
+  .boton {
+    width: 50px;
+    transition: ease 1s;
+  }
+  
+  @keyframes efecto {
+    0% {
+      box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.85);
+    }
+  
+    100% {
+      box-shadow: 0 0 0 25px rgba(0, 0, 0, 0);
+    }
+  }
+
+
+
+
+
+
+
+
+/*sobre nosotros*/
+
+.contenedor__texto-imagen {
+    display: flex;
+    flex-flow: row;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 100px 0;
+    padding: 50px;
+  }
+  
+  .imagen-sobre-nosotros {
+    height: 400px;
+    width: 100%;
+    object-fit: cover;
+    flex: 1 1 50%;
+    border-radius: 20px;
+  }
+  
+  .contenidos-texto {
+    flex: 1 1 50%;
+  
+    p {
+      object-fit: cover;
+      display: flex;
+      padding: 40px;
+    }
+  }
