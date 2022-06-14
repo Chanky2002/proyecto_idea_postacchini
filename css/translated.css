@@ -1,3 +1,8 @@
+/*variables*/
+:root {
+  --body-color: rgb(255, 244, 236); }
+
+/*header y footer*/
 /*Header*/
 header {
   width: 100%;
