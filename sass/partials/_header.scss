@@ -12,6 +12,8 @@ header{
     background-attachment: fixed;
     position: relative;
 
+   
+
     .textos-header{
         display: flex;
         height: 430px;
@@ -23,6 +25,9 @@ header{
     nav{
         text-align: right;
         padding: 30px 50px 0 0;
+        #juanjo{
+            background-color: aliceblue;
+        }
         &a{
             color:rgb(255, 244, 236);
             font-weight: 300;
@@ -38,11 +43,11 @@ header{
 
     }
 
-    wave{
+    .wave{
         position: absolute;
         bottom: 0;
         width: 100%
-        background-color rgb(255, 244, 236);
+        background-color rgb(81, 205, 35);
     
     }
 
